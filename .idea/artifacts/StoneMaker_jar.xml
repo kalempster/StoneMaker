@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StoneMaker:jar">
+    <output-path>$USER_HOME$/Desktop/spigot 1.12.2 skript/plugins</output-path>
+    <root id="archive" name="StoneMaker.jar">
+      <element id="module-output" name="StoneMaker" />
+    </root>
+  </artifact>
+</component>

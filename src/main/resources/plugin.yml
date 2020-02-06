@@ -1,0 +1,8 @@
+name: StoneMaker
+version: ${project.version}
+main: me.c4llm3p3t3r.stonemaker.StoneMaker
+authors: [C4LLM3P3T3R]
+description: Creates stone!
+commands:
+  stone:
+    description: debug
