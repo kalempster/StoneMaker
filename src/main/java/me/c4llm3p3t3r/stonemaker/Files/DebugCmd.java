@@ -19,7 +19,7 @@ public class DebugCmd implements CommandExecutor {
             if(command.getName().equals("stone")){
 
                 if(args.length == 1){
-                    if(args[0].equals("zapisz")) {
+                    if(args[0].equals("save")) {
                         try{
 
 
@@ -31,10 +31,10 @@ public class DebugCmd implements CommandExecutor {
 
                         }catch (Exception e){
                             if (sender instanceof Player){
-                                sender.sendMessage("Błąd podczas przeładowywania pliku konfiguracyjnego. Zobacz konsolę, aby dowiedzieć się więcej.");
+                                sender.sendMessage("Error while trying to reload the config file. See console to get more details.");
 
                             }else{
-                                Bukkit.getConsoleSender().sendMessage("Blad podczas przeladowywania pliku konfiguracyjnego.");
+                                Bukkit.getConsoleSender().sendMessage("Error while trying to reload the config file.");
 
                             }
                             Bukkit.getConsoleSender().sendMessage("[StoneMakerError]" + String.valueOf(e));
