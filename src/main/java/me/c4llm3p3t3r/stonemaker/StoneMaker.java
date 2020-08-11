@@ -15,19 +15,18 @@ public final class StoneMaker extends JavaPlugin{
     public void onEnable() {
 
 
-            getConfig().addDefault("Locations.StoneMakers", "pierwsze uruchomienie pluginu, lub restart pliku konfiguracyjnego");
+            getConfig().addDefault("Locations.StoneMakers", "first launch");
             getConfig().addDefault("Options.Enchanted", true);
             getConfig().addDefault("Options.EnchantLevel", 10);
-            getConfig().addDefault("Options.Name", "&4STONIARKA");
+            getConfig().addDefault("Options.Name", "&4STONEMAKER");
             getConfig().addDefault("Options.Time", 3);
-            getConfig().addDefault("Options.Lore", new String[]{"&6Stoniarka ktora generuje", "&6kamien co 3 sekundy!"});
+            getConfig().addDefault("Options.Lore", new String[]{"&6STONEMAKER generates", "&6stone every 3 seconds!"});
 
 
 
 
         getConfig().options().copyDefaults(true);
         saveConfig();
-        System.out.println("[StoneMaker] C4LLM3P3T3R All rights reserved");
         StoneMakerItem stoneMakerItem = new StoneMakerItem();
         setupItem();
 
