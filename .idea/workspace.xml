@@ -6,7 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55346281-e19d-47f3-af2f-61458c60a8a7" name="Default Changelist" comment="" />
+    <list default="true" id="55346281-e19d-47f3-af2f-61458c60a8a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/StoneMaker_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/StoneMaker_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/c4llm3p3t3r/stonemaker/Files/DebugCmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/c4llm3p3t3r/stonemaker/Files/DebugCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/c4llm3p3t3r/stonemaker/Files/StoneMakerItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/c4llm3p3t3r/stonemaker/Files/StoneMakerItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/c4llm3p3t3r/stonemaker/StoneMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/c4llm3p3t3r/stonemaker/StoneMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/StoneMaker.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/c4llm3p3t3r/stonemaker/Files/DebugCmd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/c4llm3p3t3r/stonemaker/Files/DebugCmd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/c4llm3p3t3r/stonemaker/Files/StoneMakerItem$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/c4llm3p3t3r/stonemaker/Files/StoneMakerItem$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/c4llm3p3t3r/stonemaker/Files/StoneMakerItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/c4llm3p3t3r/stonemaker/Files/StoneMakerItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/c4llm3p3t3r/stonemaker/StoneMaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/c4llm3p3t3r/stonemaker/StoneMaker.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +33,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -37,7 +54,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/spigot 1.12.2 skript/plugins" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ale więcej niepotrzebnych plików już nie będzie/jeszcze bardziej niepotrzebne pliki/spigot 1.12.2 skript/plugins" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -94,6 +112,19 @@
       <updated>1580371229065</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="643" y="320" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580371257824">

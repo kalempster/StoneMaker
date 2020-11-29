@@ -63,10 +63,19 @@ public class StoneMakerItem implements Listener {
 
         ShapedRecipe shapedRecipe = new ShapedRecipe(new NamespacedKey(stoneMaker, "new"), createItem());
 
-        shapedRecipe.shape("!!!", "!@!", "!!!");
+        shapedRecipe.shape("!@#", "$%^", "&*(");
 
-        shapedRecipe.setIngredient('!', Material.OBSIDIAN);
-        shapedRecipe.setIngredient('@', Material.DIAMOND);
+        shapedRecipe.setIngredient('!', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(0)));
+        shapedRecipe.setIngredient('@', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(1)));
+        shapedRecipe.setIngredient('#', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(2)));
+        shapedRecipe.setIngredient('$', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(3)));
+        shapedRecipe.setIngredient('%', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(4)));
+        shapedRecipe.setIngredient('^', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(5)));
+        shapedRecipe.setIngredient('&', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(6)));
+        shapedRecipe.setIngredient('*', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(7)));
+        shapedRecipe.setIngredient('(', Material.getMaterial(stoneMaker.getConfig().getStringList("Options.Crafting").get(8)));
+
+
 
         stoneMaker.getServer().addRecipe(shapedRecipe);
 

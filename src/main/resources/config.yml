@@ -1,0 +1,21 @@
+# The creation of the recipe for the StoneMaker requires a simple list of items which you can find here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# For the recipe creation you can use any material you want ex. diamond and obsidian
+# Example recipe will look like this
+
+
+# Recipe:
+# -OBSIDIAN        #that's the left upper corner
+# -OBSIDIAN
+# -OBSIDIAN        #that's the right upper corner
+# -OBSIDIAN
+# -DIAMOND         #that's the middle
+# -OBSIDIAN
+# -OBSIDIAN        #that's the left lower corner
+# -OBSIDIAN
+# -OBSIDIAN        #that's the right lower corner
+
+
+# If you have finished doing your recipe, save the file and remember that you have to reload the whole server for the recipe to update!
+# /stone reload only works for cosmetics and stone makers positions
+# If you see and error in the console while reloading it's probably because you typed the material wrong, or
+# the server version doesn't support the type of material that you wrote (ex. 1.9's shield written on a 1.8 server)
